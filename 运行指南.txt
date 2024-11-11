@@ -1,0 +1,35 @@
+打开ET.sln，编译Shared，进入Excel和Proto文件夹，编译。Local下的StartZoneConfig，设置MongoDB为本地，管理员打开CMD运行以下命令：
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:8000/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:18010/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:30002/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:30300/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:10111/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:10121/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:10021/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye> netsh http add urlacl url=http://*:10011/ user=Everyone
+
+已成功添加 URL 保留项
+
+PS C:\Users\banye>

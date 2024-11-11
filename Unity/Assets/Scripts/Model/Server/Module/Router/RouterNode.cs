@@ -33,12 +33,12 @@ namespace ET.Server
         public int RouterSyncCount;
         public int SyncCount;
 
-        public long LastCheckTime;
+        #region 限制外网消息数量，一秒最多50个包
 
-        /// <summary>
-        /// 限制外网消息数量，一秒最多50个包
-        /// </summary>
+        public long LastCheckTime;
         public int LimitCountPerSecond;
+
+        #endregion
 
         public RouterStatus Status;
     }
